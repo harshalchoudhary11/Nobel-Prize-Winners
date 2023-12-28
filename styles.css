@@ -1,0 +1,104 @@
+/* src/App.css */
+
+body {
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRExILk01rDwyi2UKa-KJDdCcSSw0_00Sznrw&usqp=CAU") no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+    margin-top: 8rem;
+    padding: 2rem;
+    background-color: #1e1818;
+    border-radius: 50px;
+    position: relative;
+    z-index: 1;
+    width: 600px;
+}
+
+.container:hover {
+    text-shadow: 1px 0px 0px #dedede;
+    box-shadow: 0px 3px 20px 20px #d574f9f5;
+    transition: 1s ease-in;
+}
+
+h1,
+h2 {
+    color: #007bff;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+#unique {
+    margin-bottom: 20px;
+    padding-left: 10px;
+    list-style-type: upper-roman;
+}
+
+li{
+    margin-bottom: 20px;
+    padding-left: 20px;
+
+}
+
+#YearName{
+    color: rgb(146, 255, 37);
+    font-size:larger;
+}
+
+select {
+    appearance: none;
+    background-color: #ffffff;
+    border: 2px solid #1a25e4;
+    padding: 10px;
+    border-radius: 20px;
+    width: 100%;
+    font-size: 16px;
+    outline: none;
+    text-transform: capitalize;
+}
+
+select:focus {
+    border-color: #007bff;
+}
+
+option {
+    font-size: 16px;
+    color: #000000;
+    background-color: aquamarine;
+    border: 2px solid rgb(40, 212, 255);
+}
+
+option:first-child {
+    color: #302d2d;
+}
+
+#categorySelect option {
+    text-transform: capitalize;
+  }
+  
+
+p {
+    margin-bottom: 10px;
+}
+
+ul {
+    margin-top: 10px;
+}
+
+.text-blue {
+    color: #ffffff;
+    font-size: larger;
+    font-style: italic;
+}
+
+.text-white {
+    color: #ffffff;
+    font-size: large;
+    font-weight: 700;
+}
